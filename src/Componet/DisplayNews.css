@@ -1,0 +1,36 @@
+*{
+    margin: 0vh;
+    padding: 0vh;
+}
+.DisplayNews{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    border: 0.1vh solid rgba(0, 0, 0, 0.412);
+}
+.data{
+    border: 0.1vh solid rgba(0, 0, 0, 0.412) ;
+    border-radius: 0.5vh;
+    margin: 2vh;
+    width: 38vh;
+}
+.data img{
+    height: 20vh;
+    width: 38vh;
+}
+.content{
+    font-size: 2.5vh;
+    margin: 1vh;
+}
+.content p{
+    margin-top: 3vh;
+}
+.btnreadmore{
+    padding: 1vh 2vh;
+    margin-top: 2vh;
+    background-color: rgb(0, 106, 255);
+    border: none;
+    color: white;
+    font-size: 2.5vh;
+    border-radius: 0.5vh;
+}
